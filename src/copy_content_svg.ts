@@ -1,0 +1,1 @@
+export const copyContentSvg = `<svg class="ytp-subtitles-button-icon" height="100%" viewBox="0 0 24 24" width="100%" fill="#FFFFFF"><path id="Layer" fill-rule="evenodd" class="s1" d="m14.6 5.8h-8.2v9.6h-1.4v-9.6c0-0.7 0.6-1.3 1.4-1.3h8.2zm-6.9 3.3c0-1.1 0.9-2 2-2h6.3c1.1 0 2 0.9 2 2v8.4c0 1.1-0.9 2-2 2h-6.3c-1.1 0-2-0.9-2-2zm1.4 8.9h7.5v-9.6h-7.5z"/></svg>`

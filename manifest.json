@@ -1,0 +1,13 @@
+{
+  "name": "just-subtitles2-youtube-embed",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [ "https://www.youtube.com/*" ],
+      "js": [ "content.js" ],
+      "all_frames": true
+    }
+  ]
+}
