@@ -8,6 +8,11 @@
       "matches": [ "https://www.youtube.com/*" ],
       "js": [ "content.js" ],
       "all_frames": true
+    },
+    {
+      "matches": [ "https://www.youtube.com/embed/*" ],
+      "js": [ "captions-auto-activation.js" ],
+      "all_frames": true
     }
   ]
 }
