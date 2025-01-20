@@ -1,18 +1,20 @@
 {
-  "name": "just-subtitles2-youtube-embed",
-  "description": "",
-  "version": "1.0",
-  "manifest_version": 3,
-  "content_scripts": [
-    {
-      "matches": [ "https://www.youtube.com/*" ],
-      "js": [ "content.js" ],
-      "all_frames": true
-    },
-    {
-      "matches": [ "https://www.youtube.com/embed/*" ],
-      "js": [ "captions-auto-activation.js" ],
-      "all_frames": true
-    }
-  ]
+	"name": "just-subtitles2-youtube-embed",
+	"description": "",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"matches": ["https://www.youtube.com/*"],
+			"js": ["content.js"],
+			"all_frames": true
+		},
+		{
+			"matches": [
+				"https://www.youtube.com/DIIIIISSSAAAABBBBLLLLEEEEDDDDD_remove_this_part/embed/*"
+			],
+			"js": ["captions-auto-activation.js"],
+			"all_frames": true
+		}
+	]
 }
